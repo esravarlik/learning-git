@@ -1,1 +1,31 @@
 Hi
+1.cd Desktop
+2.cd learning-git
+3.git init 
+Git init bulunduğumuz dizinde boş bir git deposu oluşturur.
+4.git status
+git status çalışma dizinindeki yeni ya da değişikliğe uğramış dosyalarla birlikte projenin git için durumunu gösterir.
+dosya klasörüne bir txt ekleyip kaydettim.
+Tekrar git status'u çalıştıralım.
+5.git status
+$ git status
+On branch main
+No commits yet
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        merhaba.txt
+nothing added to commit but untracked files present (use "git add" to track)
+6.git add merhaba.txt
+(Şuan dosya sahneye eklenmiş durumda.)
+İşaret edilen dosya yada dosyaları sahneye (stage) alır. Depoya işlemek için hazır hale getirir.
+7.git status
+Çıktıda değişiklikler olduğunu gösteriyor.
+8.git commit -m "merhaba dosyası ektedir."
+Sahneye eklenen değişiklikleri toplu olarak depoya işler -m sonrasında commitin ne iş yaptığını belirten mesaj girilmelidir.
+Uzak Repo için;
+Gidip githubda bir repostory oluşturuyoruz.
+Uzak repoyu ekelmek için;
+9.git remote add origin uzak repo adresi
+10.git push origin master
+Uzak depoya yerel deponun son durumunu gönderir. İlk parametre eklenen uzak deponun yereldeki adı, ikincisi yerel depodaki göndermek istediğimiz daldır.
+Hesap adı ve şifre girilir.
