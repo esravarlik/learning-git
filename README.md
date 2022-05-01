@@ -1,6 +1,6 @@
 # learning-git
 
-#Senaryo 1
+# Senaryo 1
 Uzak bir repodan kodu indirmek için;
 1. Github code kısmındaki url kopyalanır.
 2. Intelij Idea terminal kısmına git clone (kopyalanan url)
@@ -17,7 +17,7 @@ Gönderme işlemi tamamlandı.
 
 ---
 
-#Senaryo 2
+# Senaryo 2
 Uzak sunucuda içi boş bir repo oluşturalım.
 1. git init
 2. git remote add origin (uzak repo url)
