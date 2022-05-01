@@ -25,5 +25,6 @@ Uzak sunucuda içi boş bir repo oluşturalım.
 4. git add .
 5. git commit -m "initial commit"
 6. git push (git push --set-upstream origin master)
+
 kullanıcı adı, şifre
 Gönderme işlemi tamamlandı.
