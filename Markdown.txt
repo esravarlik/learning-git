@@ -1,0 +1,45 @@
+Başlıklar;
+HTML' de <h1>, <h2>, <h3> etiketleri ile oluşturulan başlıkları # karakteri kullanarak oluştururuz.
+Burada önemli olan nokta # karakterinden sonra boşluk bırakmaktır.
+
+Kalın, Eğik ve Üstü Çizili İfadeler;
+
+Yaygın kullanımda 
+kalın yazmak için **, 
+eğik yazmak için *,
+hem kalın hem eğik yazmak için *** kullanılmaktadır.
+
+Tek ve Çok Satırlı Kod Blokları;
+
+- Tek satır kod bloğu için kodun başına ve sonuna ` (backtick) karakteri eklenir.
+```
+`console.log("Hello, World!");`
+```
+Çıktı: console.log("Hello, World!");
+- Çok satır kod bloğu için kodun başına ve sonuna 3 adet ``` backtick karakteri eklenir.
+
+Yatay Çizgi;
+
+İçerikte bölümleme yapmak için --- kullanabilirsiniz. (HTML'de <hr>)
+
+Listeler;
+
+HTML'de <ul> </ul> ve <li> </li> etiketleri ile oluşturulan listeler Markdown formatında - ve * ile oluşturulur.
+Sıralı liste elde etmek için tek yapmanız gereken liste elemanlarının başına sıra numarası ve . nokta eklemek.
+```
+1. Liste Elemanı
+2. Liste Elemanı
+3. Liste Elemanı
+```
+
+Markdown ile iç içe listeler yapmak içinse alt listelere tab ile girinti verdiğinizde otomatik olarak nested list yapısına dönüşmektedir.
+
+
+Tablolar;
+
+Tablo oluşturmak için aşağıdaki yapı kullanılır. Satır çizgisi için kullanılan - karaterine, : işareti eklenerek tabloda sola, sağa veya ortaya hizalama yapılabilir.
+```
+| Ürünlerin Numaraları| Ürün Açıklaması| Ürünlerin Fiyatı|
+| :--- | :---: | ---: |
+| 1 | Açıklama | Fiyatı |
+```
