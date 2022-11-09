@@ -52,7 +52,6 @@ fast forwarding: mainde bir değişiklik yapmadan yeni bir branch oluşturup de�
 - git reset HEAD (file): bir dosyayı stagin area’dan çıkarır.
 - git checkout -- (file): değişiklikleri gözardı eder.
 ---
-### Gelişmiş Git;
 
 - Yanlışlıkla bir klasöre git eklersek eğer; rm -rf .git 
 - Git istemcisine kendimizi tanıtmak için;
@@ -93,7 +92,12 @@ Uzak sunucuda içi boş bir repo oluşturalım.
 3. git status
 4. git add .
 5. git commit -m "initial commit"
-6. git push (git push --set-upstream origin master)
+6. git push (git push --set-upstream origin main)
 
 kullanıcı adı, şifre,
 Gönderme işlemi tamamlandı.
+
+---
+
+git pull --rebase origin main  
+git push origin main
